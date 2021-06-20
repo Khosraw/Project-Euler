@@ -19,8 +19,8 @@ public class EvenFibonacciNumbers {
 
         int fiboNum;
         int total;
-        while (total <= 4000000) {
-
+        for (int i = 0; ) {
+            
         }
 
         for (int i = 0; i <= 4000000; i++) {
