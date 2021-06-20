@@ -9,7 +9,9 @@ public class LargestPrimeFactor {
         for (long i = Long.parseLong("100000000000"); i <= Long.parseLong("300851475143"); i++) {
             if (Long.parseLong("600851475143") % i == 0 && Long.parseLong("600851475143") % 2 != 0 && Long.parseLong("600851475143") % 3 != 0) {
                 int j = 5;
-                while (j ** 2 <=)
+                while (j ** 2 <= Long.parseLong("600851475143")) {
+                    
+                }
                 factors = Arrays.copyOf(factors, factors.length + 1);
                 factors[factors.length - 1] = i;
             }
