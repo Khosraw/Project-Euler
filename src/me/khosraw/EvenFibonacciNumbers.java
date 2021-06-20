@@ -21,6 +21,7 @@ public class EvenFibonacciNumbers {
         int total;
         for (int i = 1; i < 4000000; i++) {
             fiboNum = fibo[i] + fibo[i - 1];
+            fibo = Arrays.copyOf(fibo, fibo.length + 1);
             fibo[fibo.length - 1] = fiboNum;
             System.out.println(fiboNum);
         }
