@@ -13,7 +13,9 @@ import java.util.Arrays;
 public class EvenFibonacciNumbers {
     public static void main (String[] args) {
         int[] fibo = new int[0];
+        fibo = Arrays.copyOf(fibo, fibo.length + 2);
         fibo[0] = 1;
+        fibo[1] = 2;
 
         int fiboNum;
         int total;
