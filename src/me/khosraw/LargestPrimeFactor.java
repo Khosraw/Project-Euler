@@ -6,7 +6,7 @@ public class LargestPrimeFactor {
     public static void main (String[] args) {
         long[] factors = new long[0];
 
-        for (long i = Long.parseLong("1000000000000"); i <= Long.parseLong("300851475143"); i++) {
+        for (long i = Long.parseLong("100000000000"); i <= Long.parseLong("300851475143"); i++) {
             if (Long.parseLong("600851475143") % i == 0) {
                 factors = Arrays.copyOf(factors, factors.length + 1);
                 factors[factors.length - 1] = i;
