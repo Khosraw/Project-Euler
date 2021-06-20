@@ -17,7 +17,7 @@ public class EvenFibonacciNumbers {
         fibo[0] = 1;
         fibo[1] = 2;
 
-        int fiboNum;
+        int fiboNum = 0;
         int total;
         for (int i = 1; fiboNum < 4000000; i++) {
             fiboNum = fibo[i] + fibo[i - 1];
