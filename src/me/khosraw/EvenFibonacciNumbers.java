@@ -31,7 +31,7 @@ public class EvenFibonacciNumbers {
                 total = total + fibo[i];
             }
         }
-        
+        System.out.println(total);
         System.out.println(Arrays.toString(fibo));
 
 
