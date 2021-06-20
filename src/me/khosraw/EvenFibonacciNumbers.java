@@ -19,7 +19,7 @@ public class EvenFibonacciNumbers {
 
         int fiboNum;
         int total;
-        for (int i = 1; i <= fibo.length; i++) {
+        for (int i = 1; i <= fibo.length - 1; i++) {
             fiboNum = fibo[i] + fibo[i - 1];
             System.out.println(fiboNum);
         }
