@@ -27,7 +27,7 @@ public class EvenFibonacciNumbers {
         }
 
         for (int i = 0; i < 33; i++) {
-            if (fibo[i] == 0) {
+            if (fibo[i] % 2 == 0) {
                 total = total + fibo[i];
             }
         }
