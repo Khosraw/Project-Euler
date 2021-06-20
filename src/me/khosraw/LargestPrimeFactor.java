@@ -16,7 +16,8 @@ public class LargestPrimeFactor {
                         j += 6;
                     }
                 }
-
+                factors = Arrays.copyOf(factors, factors.length + 1);
+                factors[factors.length - 1] = i;
             }
         }
         System.out.println(Arrays.toString(factors));
