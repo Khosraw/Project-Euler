@@ -11,13 +11,13 @@ public class LargestPrimeFactor {
                 int j = 5;
                 while (Math.pow(j, 2) <= Long.parseLong("13195")) {
                     if (Long.parseLong("13195") % j == 0 || Long.parseLong("13195") % (j + 2) == 0) {
-                        j = 1000;
+                        j = 10000;
                     } else {
                         j += 6;
                     }
+                    factors = Arrays.copyOf(factors, factors.length + 1);
+                    factors[factors.length - 1] = i;
                 }
-                factors = Arrays.copyOf(factors, factors.length + 1);
-                factors[factors.length - 1] = i;
             }
         }
         System.out.println(Arrays.toString(factors));
