@@ -1,2 +1,4 @@
-package me.khosraw;public class EvenFibonacciNumbers {
+package me.khosraw;
+
+public class EvenFibonacciNumbers {
 }
