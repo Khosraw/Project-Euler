@@ -25,7 +25,8 @@ public class EvenFibonacciNumbers {
             fibo[fibo.length - 1] = fiboNum;
             System.out.println(fiboNum);
         }
-        System.out.println(fibo);
+        System.out.println(Arrays.toString(fibo));
+
 
     }
 }
