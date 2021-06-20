@@ -28,12 +28,8 @@ public class EvenFibonacciNumbers {
         for (int i = 0; i < 33; i++) {
             if (fibo[i] % 2 == 0) {
                 total = total + fibo[i];
-                System.out.println(total);
             }
         }
         System.out.println(total);
-        System.out.println(Arrays.toString(fibo));
-
-
     }
 }
