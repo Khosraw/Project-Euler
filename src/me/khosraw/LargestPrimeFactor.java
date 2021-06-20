@@ -11,6 +11,7 @@ public class LargestPrimeFactor {
                 int j = 5;
                 while (j ** 2 <= Long.parseLong("600851475143")) {
                     
+                    i += 6;
                 }
                 factors = Arrays.copyOf(factors, factors.length + 1);
                 factors[factors.length - 1] = i;
