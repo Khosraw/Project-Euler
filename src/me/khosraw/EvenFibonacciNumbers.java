@@ -19,15 +19,9 @@ public class EvenFibonacciNumbers {
 
         int fiboNum;
         int total;
-        for (int i = 0; ) {
-            
-        }
-
-        for (int i = 0; i <= 4000000; i++) {
-            if (i % 3 == 0 || i % 5 == 0) {
-                fibo = Arrays.copyOf(fibo, fibo.length + 1);
-                fibo[fibo.length - 1] = i;
-            }
+        for (int i = 1; i <= fibo.length; i ++) {
+            fiboNum = fibo[i] + fibo[i - 1];
+            System.out.println(fiboNum);
         }
 
     }
