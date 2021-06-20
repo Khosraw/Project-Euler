@@ -14,9 +14,9 @@ public class LargestPrimeFactor {
                         j = 10000;
                     } else {
                         j += 6;
+                        factors = Arrays.copyOf(factors, factors.length + 1);
+                        factors[factors.length - 1] = i;
                     }
-                    factors = Arrays.copyOf(factors, factors.length + 1);
-                    factors[factors.length - 1] = i;
                 }
             }
         }
