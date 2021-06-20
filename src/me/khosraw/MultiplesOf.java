@@ -1,4 +1,4 @@
-package me.khosraw;e
+package me.khosraw;
 
 import java.util.Arrays;
 
