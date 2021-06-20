@@ -25,8 +25,8 @@ public class EvenFibonacciNumbers {
             fibo[fibo.length - 1] = fiboNum;
             System.out.println(fiboNum);
         }
-        System.out.println(fibo.length);
-        for (int i = 0; i < fibo.length; i++) {
+
+        for (int i = 0; i < 33; i++) {
             if (fibo[i] == 0) {
                 total = total + fibo[i];
             }
