@@ -11,7 +11,7 @@ public class LargestPrimeFactor {
                 int j = 5;
                 while (Math.pow(j, 2) <= Long.parseLong("13195")) {
                     if (Long.parseLong("13195") % j == 0 || Long.parseLong("13195") % (j + 2) == 0) {
-                        j = 5;
+                        j = 1000;
                     } else {
                         j += 6;
                     }
