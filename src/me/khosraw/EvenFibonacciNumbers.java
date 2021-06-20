@@ -1,3 +1,7 @@
+/*
+
+ */
+
 package me.khosraw;
 
 import java.util.Arrays;
@@ -5,7 +9,7 @@ import java.util.Arrays;
 public class EvenFibonacciNumbers {
     public static void main (String[] args) {
         int[] fibo = new int[0];
-        
+
         int fiboNum;
         int total;
         while (total <= 4000000) {
