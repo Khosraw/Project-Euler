@@ -23,12 +23,12 @@ public class EvenFibonacciNumbers {
             fiboNum = fibo[i] + fibo[i - 1];
             fibo = Arrays.copyOf(fibo, fibo.length + 1);
             fibo[fibo.length - 1] = fiboNum;
-            System.out.println(fiboNum);
         }
 
         for (int i = 0; i < 33; i++) {
             if (fibo[i] % 2 == 0) {
                 total = total + fibo[i];
+                System.out.println(total);
             }
         }
         System.out.println(total);
