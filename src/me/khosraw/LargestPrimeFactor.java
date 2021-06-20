@@ -8,9 +8,8 @@ public class LargestPrimeFactor {
 
         for (long i = Long.parseLong("1"); i <= Long.parseLong("13195"); i++) {
             if (Long.parseLong("13195") % i == 0 && Long.parseLong("13195") % 2 != 0 && Long.parseLong("13195") % 3 != 0) {
-                    factors = Arrays.copyOf(factors, factors.length + 1);
-                    factors[factors.length - 1] = i;
-                }
+                factors = Arrays.copyOf(factors, factors.length + 1);
+                factors[factors.length - 1] = i;
             }
         }
         System.out.println(Arrays.toString(factors));
