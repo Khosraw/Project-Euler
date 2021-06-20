@@ -12,6 +12,7 @@ public class LargestPrimeFactor {
                 factors[factors.length - 1] = i;
             }
         }
+        System.out.println(Arrays.toString(factors));
         int result = 0;
         for (int i = 0; i < 467; i++) {
             result = result + factors[i];
