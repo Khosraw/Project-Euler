@@ -6,11 +6,11 @@ public class LargestPrimeFactor {
     public static void main (String[] args) {
         long[] factors = new long[0];
 
-        for (long i = Long.parseLong("1"); i <= Long.parseLong("300851475143"); i++) {
-            if (Long.parseLong("600851475143") % i == 0 && Long.parseLong("600851475143") % 2 != 0 && Long.parseLong("600851475143") % 3 != 0) {
+        for (long i = Long.parseLong("1"); i <= Long.parseLong("13195"); i++) {
+            if (Long.parseLong("13195") % i == 0 && Long.parseLong("13195") % 2 != 0 && Long.parseLong("13195") % 3 != 0) {
                 int j = 5;
-                while (Math.pow(j, 2) <= Long.parseLong("600851475143")) {
-                    if (Long.parseLong("600851475143") % j == 0 || Long.parseLong("600851475143") % (j + 2) == 0) {
+                while (Math.pow(j, 2) <= Long.parseLong("13195")) {
+                    if (Long.parseLong("13195") % j == 0 || Long.parseLong("13195") % (j + 2) == 0) {
                         return;
                     }
                     j += 6;
