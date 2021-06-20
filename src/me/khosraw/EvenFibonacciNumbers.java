@@ -14,7 +14,7 @@ public class EvenFibonacciNumbers {
     public static void main (String[] args) {
         int[] fibo = new int[0];
         fibo[0] = 1;
-        
+
         int fiboNum;
         int total;
         while (total <= 4000000) {
