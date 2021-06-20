@@ -18,13 +18,20 @@ public class EvenFibonacciNumbers {
         fibo[1] = 2;
 
         int fiboNum = 0;
-        int total;
+        int total = 0;
         for (int i = 1; fiboNum < 4000000; i++) {
             fiboNum = fibo[i] + fibo[i - 1];
             fibo = Arrays.copyOf(fibo, fibo.length + 1);
             fibo[fibo.length - 1] = fiboNum;
             System.out.println(fiboNum);
         }
+
+        for (int i = 0; i < fibo.length; i++) {
+            if (fibo[i] == 0) {
+                total = total + fibo[i];
+            }
+        }
+        
         System.out.println(Arrays.toString(fibo));
 
 
