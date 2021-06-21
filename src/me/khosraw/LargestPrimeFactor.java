@@ -17,6 +17,8 @@ public class LargestPrimeFactor {
     }
 
     public static void main (String[] args) {
+        long num = 600851475143L;
+
         long[] factors = new long[0];
         System.out.println(isPrime(2));
 
