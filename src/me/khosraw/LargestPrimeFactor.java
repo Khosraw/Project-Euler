@@ -6,7 +6,9 @@ public class LargestPrimeFactor {
     public static boolean isPrime (int n) {
         if (n <= 1) {
             return false;
-        } 
+        } else {
+            
+        }
     }
 
     public static void main (String[] args) {
