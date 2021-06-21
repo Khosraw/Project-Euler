@@ -7,13 +7,15 @@ public class LargestPalindromeProduct {
         for (int i = 0; )
     }
 
-    public static 
+    public static String toString (int num) {
+        String stringNum = num;
+    }
 
     public static void main (String[] args) {
         int num;
 
-        for (int i = 1; i <= 999; i++) {
-            for (int j = 1; i <= 999; j++) {
+        for (int i = 100; i <= 999; i++) {
+            for (int j = 100; i <= 999; j++) {
                 num = i * j;
                 isPalindrome(num);
             }
