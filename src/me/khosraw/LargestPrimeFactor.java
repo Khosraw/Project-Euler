@@ -22,7 +22,7 @@ public class LargestPrimeFactor {
 
         long[] primeFactors = new long[0];
 
-        for (int factor = 2; factor <= 600851475143L; factor++) {
+        for (long factor = 2; factor <= 600851475143L; factor++) {
             if (600851475143L % i == 0 && Long.parseLong("600851475143") % 2 != 0 && Long.parseLong("600851475143") % 3 != 0) {
                 primeFactors = Arrays.copyOf(primeFactors, primeFactors.length + 1);
                 primeFactors[primeFactors.length - 1] = i;
