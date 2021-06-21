@@ -29,7 +29,8 @@ public class LargestPrimeFactor {
             }
         }
         if (num > primeFactors[primeFactors.length - 1]) {
-            
+            primeFactors = Arrays.copyOf(primeFactors, primeFactors.length + 1);
+            primeFactors[primeFactors.length - 1] = factor;
         }
         System.out.println(Arrays.toString(primeFactors));
 
