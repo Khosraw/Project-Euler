@@ -3,10 +3,10 @@ package me.khosraw;
 import java.util.Arrays;
 
 public class LargestPrimeFactor {
-    public static void isPrime (int n) {
+    public static boolean isPrime (int n) {
         if (n <= 1) {
-            
-        }
+            return false;
+        } 
     }
 
     public static void main (String[] args) {
