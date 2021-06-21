@@ -28,7 +28,7 @@ public class LargestPrimeFactor {
                 primeFactors[primeFactors.length - 1] = factor;
             }
         }
-        if 
+        if ()
         System.out.println(Arrays.toString(primeFactors));
 
     }
