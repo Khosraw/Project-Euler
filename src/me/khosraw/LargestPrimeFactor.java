@@ -20,8 +20,8 @@ public class LargestPrimeFactor {
         long num = 600851475143L;
 
         long[] primeFactors = new long[0];
-
-        for (long factor = 2; factor <= num; factor++) {
+        long factor;
+        for (factor = 2; factor <= num; factor++) {
             if (num % factor == 0) {
                 num = num / factor;
                 primeFactors = Arrays.copyOf(primeFactors, primeFactors.length + 1);
