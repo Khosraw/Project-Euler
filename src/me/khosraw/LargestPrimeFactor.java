@@ -21,7 +21,6 @@ public class LargestPrimeFactor {
         long largestFactor = 0;
 
         long[] factors = new long[0];
-        System.out.println(isPrime(2));
 
         for (long i = Long.parseLong("1"); i <= 600851475143L; i++) {
             if (600851475143L % i == 0 && Long.parseLong("600851475143") % 2 != 0 && Long.parseLong("600851475143") % 3 != 0) {
