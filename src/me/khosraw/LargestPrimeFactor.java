@@ -3,7 +3,7 @@ package me.khosraw;
 import java.util.Arrays;
 
 public class LargestPrimeFactor {
-    public static boolean isPrime (int n) {
+    public static boolean isPrime (long n) {
         if (n <= 1) {
             return false;
         } else {
