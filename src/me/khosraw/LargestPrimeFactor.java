@@ -25,7 +25,7 @@ public class LargestPrimeFactor {
         for (long factor = 2; factor <= 600851475143L; factor++) {
             if (600851475143L % factor == 0) {
                 primeFactors = Arrays.copyOf(primeFactors, primeFactors.length + 1);
-                primeFactors[primeFactors.length - 1] = i;
+                primeFactors[primeFactors.length - 1] = factor;
             }
         }
         System.out.println(Arrays.toString(factors));
