@@ -36,5 +36,5 @@ public class LargestPrimeFactor {
         }
         System.out.println(Arrays.toString(primeFactors));
 
-    }Kh30833083#1
+    }
 }
