@@ -5,6 +5,8 @@ import java.util.Arrays;
 public class LargestPrimeFactor {
     public static void isPrime (int n) {
         if (n <= 1) {
+            
+        }
     }
 
     public static void main (String[] args) {
