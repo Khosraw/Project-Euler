@@ -18,12 +18,11 @@ public class LargestPrimeFactor {
 
     public static void main (String[] args) {
         long num = 600851475143L;
-        long largestFactor = 0;
 
         long[] primeFactors = new long[0];
 
-        for (long factor = 2; factor <= 600851475143L; factor++) {
-            if (600851475143L % factor == 0) {
+        for (long factor = 2; factor <= num; factor++) {
+            if (num % factor == 0) {
                 num = num / factor;
                 primeFactors = Arrays.copyOf(primeFactors, primeFactors.length + 1);
                 primeFactors[primeFactors.length - 1] = factor;
