@@ -3,6 +3,7 @@ package me.khosraw;
 import java.util.Arrays;
 
 public class LargestPrimeFactor {
+    /*
     public static boolean isPrime (long n) {
         if (n <= 1) {
             return false;
@@ -15,6 +16,7 @@ public class LargestPrimeFactor {
         }
         return true;
     }
+    */
 
     public static void main (String[] args) {
         long num = 600851475143L;
