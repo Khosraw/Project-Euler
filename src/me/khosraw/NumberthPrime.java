@@ -25,6 +25,7 @@ public class NumberthPrime {
                 primes[primes.length - 1] = i;
             }
         }
+        System.out.println(Arrays.toString(primes));
 
     }
 }
