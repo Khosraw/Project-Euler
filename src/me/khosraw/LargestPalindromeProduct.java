@@ -49,6 +49,7 @@ public class LargestPalindromeProduct {
 
     public static void main (String[] args) {
         int num;
+        int prevNum;
 
         for (int i = 100; i <= 999; i++) {
             for (int j = 100; j <= 999; j++) {
@@ -57,7 +58,6 @@ public class LargestPalindromeProduct {
                 if (isPalindrome(num)) {
                     System.out.println(num + " is a palindrome!");
                 }
-
             }
         }
 
