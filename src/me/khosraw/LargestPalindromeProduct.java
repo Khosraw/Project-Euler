@@ -61,8 +61,8 @@ public class LargestPalindromeProduct {
 
                     if (prevNum < num) {
                         largestNum = num;
+                        prevNum = num;
                     }
-                    prevNum = num;
                 }
             }
         }
