@@ -13,16 +13,11 @@ public class LargestPalindromeProduct {
         for (int i = 0; i < stringNum.length(); i++) {
             ch[i] = stringNum.charAt(i);
         }
-        System.out.println(ch[0]);
-        System.out.println(ch[1]);
-        System.out.println(ch[2]);
-        System.out.println(ch[3]);
-        System.out.println(ch[4]);
 
         String[] numDigits = new String[0];
         for (int i = 0; i < stringNum.length(); i++) {
             numDigits = Arrays.copyOf(numDigits, numDigits.length + 1);
-            numDigits[numDigits.length - 1] = stringNum;
+            numDigits[numDigits.length - 1] = ch[i];
         }
 
         // reversing string
