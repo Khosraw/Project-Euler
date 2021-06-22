@@ -20,7 +20,7 @@ public class NumberthPrime {
         int[] primes = new int[0];
 
         for (int i = 1; i <= 1000000000; i++) {
-            if (isPrime(i)) {
+            if (1000000000 % i == 0) {
                 primes = Arrays.copyOf(primes, primes.length + 1);
                 primes[primes.length - 1] = i;
             }
