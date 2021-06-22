@@ -1,5 +1,7 @@
 package me.khosraw;
 
+import java.util.Arrays;
+
 public class NumberthPrime {
     public static boolean isPrime (long n) {
         if (n <= 1) {
@@ -19,7 +21,8 @@ public class NumberthPrime {
 
         for (int i = 1; i <= 1000000000; i++) {
             if (isPrime(i)) {
-
+                primes = Arrays.copyOf(primes, primes.length + 1);
+                primes[primes.length - 1] = i;
             }
         }
 
