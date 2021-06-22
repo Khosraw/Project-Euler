@@ -21,8 +21,20 @@ public class NumberthPrime {
 
         for (int i = 1; i <= 1000000000; i++) {
             if (1000000000 % i == 0) {
-                primes = Arrays.copyOf(primes, primes.length + 1);
-                primes[primes.length - 1] = i;
+                int counter=0;
+                for(num =i; num>=1; num--)
+                {
+                    if(i%num==0)
+                    {
+                        counter = counter + 1;
+                    }
+                }
+                if (counter ==2)
+                {
+                    //Appended the Prime number to the String
+                    primes = Arrays.copyOf(primes, primes.length + 1);
+                    primes[primes.length - 1] = i;
+                }
             }
             if (primes.length - 1 == 10001) {
                 i = 1000000001;
