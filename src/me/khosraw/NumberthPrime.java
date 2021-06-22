@@ -22,6 +22,7 @@ public class NumberthPrime {
         for (int i = 1; i <= 1000000000; i++) {
             if (1000000000 % i == 0) {
                 int counter=0;
+                int num;
                 for(num =i; num>=1; num--)
                 {
                     if(i%num==0)
