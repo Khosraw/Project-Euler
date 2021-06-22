@@ -58,14 +58,15 @@ public class LargestPalindromeProduct {
 
                 if (isPalindrome(num)) {
                     System.out.println(num + " is a palindrome!");
+
+                    if (prevNum < num) {
+                        largestNum = num;
+                    }
+                    prevNum = num;
                 }
-                
-                if (prevNum < num) {
-                    largestNum = num;
-                }
-                prevNum = num;
             }
         }
         System.out.println(largestNum);
+
     }
 }
