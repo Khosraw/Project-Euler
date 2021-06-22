@@ -5,8 +5,8 @@ import java.util.Arrays;
 public class LargestPalindromeProduct {
     public static boolean isPalindrome (int num) {
         String stringNum = toString(num);
-        String[] numDigits = new String[0];
 
+        String[] numDigits = new String[0];
         for (int i = 0; i < stringNum.length(); i++) {
             numDigits = Arrays.copyOf(numDigits, numDigits.length + 1);
             numDigits[numDigits.length - 1] = stringNum;
