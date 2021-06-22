@@ -22,13 +22,11 @@ public class LargestPalindromeProduct {
             sb1.append(numDigits[i]);
         }
         String str1 = sb1.toString();
-        System.out.println(str1);
         StringBuffer sb2 = new StringBuffer();
         for (int i = 0; i < numDigits.length; i++) {
-            sb2.append(numDigits[i]);
+            sb2.append(newnumDigits[i]);
         }
         String str2 = sb2.toString();
-        System.out.println(str2);
         return str1.equals(str2);
 
     }
