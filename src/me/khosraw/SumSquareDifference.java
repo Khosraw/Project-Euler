@@ -12,6 +12,7 @@ public class SumSquareDifference {
         for (long i = 1; i <= 100; i++) {
             squareSum = squareSum + i;
         }
+        double val = Math.pow(squareSum, 2) - sumSquare
         System.out.println(Math.pow(squareSum, 2) - sumSquare);
 
     }
