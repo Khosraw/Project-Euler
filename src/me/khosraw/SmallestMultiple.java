@@ -8,7 +8,7 @@ public class SmallestMultiple {
                 counter = 200000000;
                 System.out.println(counter + " is the answer!");
             } else {
-                counter++;
+                counter = counter + 1;
             }
         }
 
