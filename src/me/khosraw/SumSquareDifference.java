@@ -1,2 +1,5 @@
-package me.khosraw;public class SumSquareDifference {
+package me.khosraw;
+
+public class SumSquareDifference {
+    
 }
