@@ -7,7 +7,7 @@ public class LargestPalindromeProduct {
         String stringNum = toString(num);
         String[] numDigits = new String[0];
 
-        for (int i = 0; i <= stringNum.length(); i++) {
+        for (int i = 0; i < stringNum.length(); i++) {
             numDigits = Arrays.copyOf(numDigits, numDigits.length + 1);
             numDigits[numDigits.length - 1] = stringNum;
         }
