@@ -32,7 +32,7 @@ public class NumberthPrime {
                 primes = Arrays.copyOf(primes, primes.length + 1);
                 primes[primes.length - 1] = i;
             }
-            if (primes.length - 1 == 10001) {
+            if (primes.length - 1 == 10000) {
                 i = 1000000001;
             }
         }
