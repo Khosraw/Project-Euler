@@ -25,7 +25,7 @@ public class NumberthPrime {
                 primes[primes.length - 1] = i;
             }
             if (primes.length - 1 == 10001) {
-                
+                i = 1000000001;
             }
         }
         System.out.println(Arrays.toString(primes));
