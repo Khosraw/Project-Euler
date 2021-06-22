@@ -1,2 +1,6 @@
-package me.khosraw;public class SmallestMultiple {
+package me.khosraw;
+
+public class SmallestMultiple {
+    
+
 }
