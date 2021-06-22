@@ -26,18 +26,12 @@ public class LargestPalindromeProduct {
             newnumDigits = Arrays.copyOf(newnumDigits, newnumDigits.length + 1);
             newnumDigits[i] = numDigits[numDigits.length - 1 - i];
         }
-        /*
-        StringBuffer sb1 = new StringBuffer();
-        for (int i = 0; i < numDigits.length; i++) {
-            sb1.append(numDigits[i]);
+
+        StringBuilder sb = new StringBuilder();
+        for (String newnumDigit : newnumDigits) {
+            sb.append(newnumDigit);
         }
-        String str1 = sb1.toString();
-        */
-        StringBuffer sb2 = new StringBuffer();
-        for (int i = 0; i < newnumDigits.length; i++) {
-            sb2.append(newnumDigits[i]);
-        }
-        String str2 = sb2.toString();
+        String str2 = sb.toString();
         return stringNum.equals(str2);
 
     }
