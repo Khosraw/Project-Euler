@@ -6,6 +6,19 @@ public class LargestPalindromeProduct {
     public static boolean isPalindrome (int num) {
         String stringNum = toString(num);
 
+        // Creating array of string length
+        char[] ch = new char[stringNum.length()];
+
+        // Copy character by character into array
+        for (int i = 0; i < stringNum.length(); i++) {
+            ch[i] = stringNum.charAt(i);
+        }
+        System.out.println(ch[0]);
+        System.out.println(ch[1]);
+        System.out.println(ch[2]);
+        System.out.println(ch[3]);
+        System.out.println(ch[4]);
+
         String[] numDigits = new String[0];
         for (int i = 0; i < stringNum.length(); i++) {
             numDigits = Arrays.copyOf(numDigits, numDigits.length + 1);
