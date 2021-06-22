@@ -19,7 +19,7 @@ public class NumberthPrime {
     public static void main(String[] args) {
         int[] primes = new int[0];
 
-        for (int i = 1; primes.length - 1 == 10001; i++) {
+        for (int i = 1; primes.length - 1 <= 10001; i++) {
             int counter = 0;
             int num;
             for (num = i; num >= 1; num--) {
