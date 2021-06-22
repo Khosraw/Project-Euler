@@ -23,7 +23,7 @@ public class LargestPalindromeProduct {
         }
         String str1 = sb1.toString();
         StringBuffer sb2 = new StringBuffer();
-        for (int i = 0; i < numDigits.length; i++) {
+        for (int i = 0; i < newnumDigits.length; i++) {
             sb2.append(newnumDigits[i]);
         }
         String str2 = sb2.toString();
