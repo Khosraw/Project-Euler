@@ -19,7 +19,7 @@ public class LargestPalindromeProduct {
         }
         StringBuffer sb1 = new StringBuffer();
         for (int i = 0; i < numDigits.length; i++) {
-            sb1.append(numDigits[i]);
+            sb1.append(newnumDigits[i]);
         }
         String str1 = sb1.toString();
         StringBuffer sb2 = new StringBuffer();
