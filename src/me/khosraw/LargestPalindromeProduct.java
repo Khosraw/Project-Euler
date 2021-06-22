@@ -45,7 +45,7 @@ public class LargestPalindromeProduct {
                 num = i * j;
 
                 if (isPalindrome(num)) {
-                    num = 0;
+                    System.out.println(num + " is a palindrome!");
                 }
 
             }
