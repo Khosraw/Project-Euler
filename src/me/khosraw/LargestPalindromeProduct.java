@@ -17,14 +17,19 @@ public class LargestPalindromeProduct {
             newnumDigits = Arrays.copyOf(newnumDigits, newnumDigits.length + 1);
             newnumDigits[i] = numDigits[numDigits.length - 1 - i];
         }
-        StringBuffer sb = new StringBuffer();
-        for(int i = 0; i < stringArray.length; i++) {
-            sb.append(stringArray[i]);
+        StringBuilder sb1 = new StringBuilder();
+        for (int i = 0; i < numDigits.length; i++) {
+            sb1.append(numDigits[i]);
         }
-        String str = sb.toString();
-        System.out.println(str);
+        String str1 = sb1.toString();
 
-        if ()
+        StringBuilder sb2 = new StringBuilder();
+        for (int i = 0; i < numDigits.length; i++) {
+            sb2.append(numDigits[i]);
+        }
+        String str2 = sb2.toString();
+
+        return str1.equals(str2);
 
     }
 
@@ -38,9 +43,13 @@ public class LargestPalindromeProduct {
         int num;
 
         for (int i = 100; i <= 999; i++) {
-            for (int j = 100; i <= 999; j++) {
+            for (int j = 100; j <= 999; j++) {
                 num = i * j;
-                isPalindrome(num);
+
+                if (isPalindrome(num)) {
+                    System.out.println(num + " is a palindrome!");
+                }
+
             }
         }
 
