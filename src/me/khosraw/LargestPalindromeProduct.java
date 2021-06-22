@@ -32,9 +32,8 @@ public class LargestPalindromeProduct {
     }
 
     public static String toString (int num) {
-        String stringNum = Integer.toString(num);
 
-        return stringNum;
+        return Integer.toString(num);
     }
 
     public static void main (String[] args) {
