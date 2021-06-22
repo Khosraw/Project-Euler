@@ -17,13 +17,13 @@ public class LargestPalindromeProduct {
             newnumDigits = Arrays.copyOf(newnumDigits, newnumDigits.length + 1);
             newnumDigits[i] = newnumDigits[newnumDigits.length - 1 - i];
         }
-        StringBuilder sb1 = new StringBuilder();
+        StringBuffer sb1 = new StringBuffer();
         for (int i = 0; i < numDigits.length; i++) {
             sb1.append(numDigits[i]);
         }
         String str1 = sb1.toString();
         System.out.println(str1);
-        StringBuilder sb2 = new StringBuilder();
+        StringBuffer sb2 = new StringBuffer();
         for (int i = 0; i < numDigits.length; i++) {
             sb2.append(numDigits[i]);
         }
