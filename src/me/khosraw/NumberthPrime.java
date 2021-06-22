@@ -30,8 +30,7 @@ public class NumberthPrime {
                         counter = counter + 1;
                     }
                 }
-                if (counter ==2)
-                {
+                if (counter ==2) {
                     //Appended the Prime number to the String
                     primes = Arrays.copyOf(primes, primes.length + 1);
                     primes[primes.length - 1] = i;
