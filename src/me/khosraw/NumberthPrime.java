@@ -18,8 +18,9 @@ public class NumberthPrime {
 
     public static void main(String[] args) {
         int[] primes = new int[0];
-
-        for (int i = 1; primes.length - 1 <= 10001; i++) {
+        int i = 0;
+        while (primes.length - 1 <= 10001) {
+            i = i + 1;
             int counter = 0;
             int num;
             for (num = i; num >= 1; num--) {
@@ -31,9 +32,6 @@ public class NumberthPrime {
                 //Appended the Prime number to the String
                 primes = Arrays.copyOf(primes, primes.length + 1);
                 primes[primes.length - 1] = i;
-            }
-            if (primes.length - 1 == 10000) {
-                i = 1000000001;
             }
         }
         System.out.println(Arrays.toString(primes));
