@@ -17,7 +17,7 @@ public class LargestPalindromeProduct {
         String[] numDigits = new String[0];
         for (int i = 0; i < stringNum.length(); i++) {
             numDigits = Arrays.copyOf(numDigits, numDigits.length + 1);
-            numDigits[numDigits.length - 1] = ch[i];
+            numDigits[numDigits.length - 1] = toString(ch[i]);
         }
 
         // reversing string
