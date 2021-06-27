@@ -111,6 +111,6 @@ public class LargeSum {
             BigInteger a = new BigInteger(split[i]);
             b = a.add(b);
         }
-        System.out.println(b);
+        System.out.println(b); // just that the first 10 digits and you're good to go
     }
 }
