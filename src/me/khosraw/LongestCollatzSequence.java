@@ -6,12 +6,13 @@ public class LongestCollatzSequence {
         long temp = num;
         int  terms = 1;
         int longestTerm = 0;
+        int longestNum = 0;
 
         while (num < 1000000) {
             if (terms == 1) {
                 temp = num;
             }
-             if (temp % 2 == 0) {
+            if (temp % 2 == 0) {
                 temp = temp/2;
                 terms = terms + 1;
             } else if (temp % 2 == 1) {
@@ -21,12 +22,13 @@ public class LongestCollatzSequence {
             if (temp == 1) {
                 if (terms > longestTerm) {
                     longestTerm = terms;
+                    longestNum = num;
                 } else {
                     num = num + 1;
                 }
                 terms = 1;
             }
         }
-        System.out.println(longestTerm);
+        System.out.println(longestNum);
     }
 }
